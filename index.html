@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>女性主义谱系测评</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="brand">
+        <div class="brand__mark" aria-hidden="true"></div>
+        <div class="brand__text">
+          <div class="brand__name">谱系测评</div>
+          <div class="brand__sub">Feminism Lineage Explorer</div>
+        </div>
+      </div>
+
+      <nav class="topnav">
+        <a href="#/" class="navlink" data-route="/">测评</a>
+        <a href="#/encyclopedia" class="navlink" data-route="/encyclopedia">派别百科</a>
+        <a href="#/about" class="navlink" data-route="/about">方法说明</a>
+      </nav>
+
+      <div class="topbar__right">
+        <button class="ghost" id="btnReset" title="清空作答">重置</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="app" aria-live="polite"></main>
+
+  <footer class="footer wrap">
+    <div class="muted">提示：本测评用于自我理解与讨论组织，不构成权威分类。</div>
+  </footer>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>
